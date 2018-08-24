@@ -1,0 +1,7351 @@
+---------------------------------------------------------------
+[ 2018-08-15T17:27:43+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003116s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411663 ORDER BY `createtime` DESC [ RunTime:0.000884s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:01+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003300s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.010543s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411681 ORDER BY `createtime` DESC [ RunTime:0.000681s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:02+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002077s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001414s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411681 ORDER BY `createtime` DESC [ RunTime:0.000757s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:02+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002427s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411682 ORDER BY `createtime` DESC [ RunTime:0.000819s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:02+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002158s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411682 ORDER BY `createtime` DESC [ RunTime:0.000756s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:02+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014994s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001744s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411682 ORDER BY `createtime` DESC [ RunTime:0.001028s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:03+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011362s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.002937s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411683 ORDER BY `createtime` DESC [ RunTime:0.000777s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:03+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002755s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411683 ORDER BY `createtime` DESC [ RunTime:0.000977s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:03+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012074s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411683 ORDER BY `createtime` DESC [ RunTime:0.000683s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:04+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002526s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411684 ORDER BY `createtime` DESC [ RunTime:0.000763s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:04+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002409s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411684 ORDER BY `createtime` DESC [ RunTime:0.000730s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:04+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002342s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001383s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411684 ORDER BY `createtime` DESC [ RunTime:0.000750s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:05+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002350s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411685 ORDER BY `createtime` DESC [ RunTime:0.000947s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:05+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003735s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001674s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411685 ORDER BY `createtime` DESC [ RunTime:0.001124s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:05+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002097s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411685 ORDER BY `createtime` DESC [ RunTime:0.000834s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:05+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002558s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411685 ORDER BY `createtime` DESC [ RunTime:0.000758s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:06+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011039s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001897s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411686 ORDER BY `createtime` DESC [ RunTime:0.000946s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:06+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002124s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411686 ORDER BY `createtime` DESC [ RunTime:0.001025s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:06+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011028s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411686 ORDER BY `createtime` DESC [ RunTime:0.001222s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:07+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012405s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001753s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411687 ORDER BY `createtime` DESC [ RunTime:0.000887s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:07+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002049s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411687 ORDER BY `createtime` DESC [ RunTime:0.000739s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:07+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011297s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411687 ORDER BY `createtime` DESC [ RunTime:0.000769s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:07+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002669s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411687 ORDER BY `createtime` DESC [ RunTime:0.000853s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:08+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003022s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411688 ORDER BY `createtime` DESC [ RunTime:0.000846s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:08+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002060s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411688 ORDER BY `createtime` DESC [ RunTime:0.000735s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:08+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003047s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411688 ORDER BY `createtime` DESC [ RunTime:0.000963s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:08+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002119s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.002244s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411688 ORDER BY `createtime` DESC [ RunTime:0.001227s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:10+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004799s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411690 ORDER BY `createtime` DESC [ RunTime:0.001265s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:11+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011245s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411691 ORDER BY `createtime` DESC [ RunTime:0.000770s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:11+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002772s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411691 ORDER BY `createtime` DESC [ RunTime:0.000813s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:11+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012135s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411691 ORDER BY `createtime` DESC [ RunTime:0.000758s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:12+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002134s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.013572s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411692 ORDER BY `createtime` DESC [ RunTime:0.000761s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:12+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012606s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411692 ORDER BY `createtime` DESC [ RunTime:0.000747s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:12+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002921s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411692 ORDER BY `createtime` DESC [ RunTime:0.000899s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:13+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002415s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411693 ORDER BY `createtime` DESC [ RunTime:0.000736s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:13+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002101s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411693 ORDER BY `createtime` DESC [ RunTime:0.001060s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:13+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002124s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411693 ORDER BY `createtime` DESC [ RunTime:0.000731s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:14+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012093s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411694 ORDER BY `createtime` DESC [ RunTime:0.000746s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:14+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011263s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411694 ORDER BY `createtime` DESC [ RunTime:0.000856s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:14+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002426s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411694 ORDER BY `createtime` DESC [ RunTime:0.000803s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:15+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011595s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411695 ORDER BY `createtime` DESC [ RunTime:0.000752s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:16+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002756s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411696 ORDER BY `createtime` DESC [ RunTime:0.000690s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:16+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002090s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411696 ORDER BY `createtime` DESC [ RunTime:0.000717s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:16+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002051s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411696 ORDER BY `createtime` DESC [ RunTime:0.000778s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:16+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011452s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411696 ORDER BY `createtime` DESC [ RunTime:0.000720s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:17+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011471s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411697 ORDER BY `createtime` DESC [ RunTime:0.001113s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:17+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002135s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001641s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411697 ORDER BY `createtime` DESC [ RunTime:0.000874s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:17+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011323s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411697 ORDER BY `createtime` DESC [ RunTime:0.000741s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:17+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010860s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411697 ORDER BY `createtime` DESC [ RunTime:0.000806s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:18+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011548s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411698 ORDER BY `createtime` DESC [ RunTime:0.000748s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:18+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012997s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411698 ORDER BY `createtime` DESC [ RunTime:0.000810s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:19+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002859s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411699 ORDER BY `createtime` DESC [ RunTime:0.000838s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:19+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011513s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411699 ORDER BY `createtime` DESC [ RunTime:0.000959s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:19+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002130s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411699 ORDER BY `createtime` DESC [ RunTime:0.000941s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:20+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011027s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411700 ORDER BY `createtime` DESC [ RunTime:0.000826s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:20+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002342s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411700 ORDER BY `createtime` DESC [ RunTime:0.000702s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:21+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002326s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001851s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411701 ORDER BY `createtime` DESC [ RunTime:0.001069s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:22+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002639s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411702 ORDER BY `createtime` DESC [ RunTime:0.000619s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:22+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002694s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411702 ORDER BY `createtime` DESC [ RunTime:0.000768s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:22+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002456s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411702 ORDER BY `createtime` DESC [ RunTime:0.000807s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:23+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003070s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411703 ORDER BY `createtime` DESC [ RunTime:0.001250s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:25+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003402s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411705 ORDER BY `createtime` DESC [ RunTime:0.000946s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:26+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003098s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411706 ORDER BY `createtime` DESC [ RunTime:0.000871s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:26+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002069s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411706 ORDER BY `createtime` DESC [ RunTime:0.000751s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:27+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011166s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411707 ORDER BY `createtime` DESC [ RunTime:0.000955s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:27+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002602s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411707 ORDER BY `createtime` DESC [ RunTime:0.000997s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:29+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002942s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001964s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411709 ORDER BY `createtime` DESC [ RunTime:0.001044s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:30+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012372s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411710 ORDER BY `createtime` DESC [ RunTime:0.000877s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:30+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002508s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411710 ORDER BY `createtime` DESC [ RunTime:0.000851s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:30+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002781s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411710 ORDER BY `createtime` DESC [ RunTime:0.000733s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:31+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002214s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411711 ORDER BY `createtime` DESC [ RunTime:0.000753s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:31+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002534s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411711 ORDER BY `createtime` DESC [ RunTime:0.000726s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:31+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002101s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411711 ORDER BY `createtime` DESC [ RunTime:0.000741s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:32+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002766s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411712 ORDER BY `createtime` DESC [ RunTime:0.000869s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:32+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003773s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411712 ORDER BY `createtime` DESC [ RunTime:0.000781s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:35+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002581s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411715 ORDER BY `createtime` DESC [ RunTime:0.000733s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:35+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011702s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.002233s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411715 ORDER BY `createtime` DESC [ RunTime:0.001051s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:35+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011308s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411715 ORDER BY `createtime` DESC [ RunTime:0.000745s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:36+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002559s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411716 ORDER BY `createtime` DESC [ RunTime:0.000741s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:36+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002507s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411716 ORDER BY `createtime` DESC [ RunTime:0.000698s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:37+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011251s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411717 ORDER BY `createtime` DESC [ RunTime:0.000908s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:37+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002484s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411717 ORDER BY `createtime` DESC [ RunTime:0.000843s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:37+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011189s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411717 ORDER BY `createtime` DESC [ RunTime:0.000837s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+---------------------------------------------------------------
+[ 2018-08-15T17:28:38+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002821s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411718 ORDER BY `createtime` DESC [ RunTime:0.000792s ]
+[ sql ] [ SQL ] INSERT INTO `fa_sms` (`mobile` , `type` , `createtime` , `code`) VALUES ('18712377078' , 0 , 1534325318 , 738731) [ RunTime:0.057361s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] array (
+  0 => 
+  array (
+    'id' => 7,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 957665,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325258,
+    'type' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 6,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 325613,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325139,
+    'type' => 0,
+  ),
+  2 => 
+  array (
+    'id' => 5,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 349655,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534325025,
+    'type' => 0,
+  ),
+  3 => 
+  array (
+    'id' => 4,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 437989,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534324964,
+    'type' => 0,
+  ),
+  4 => 
+  array (
+    'id' => 3,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323876,
+    'type' => 0,
+  ),
+  5 => 
+  array (
+    'id' => 2,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323875,
+    'type' => 0,
+  ),
+  6 => 
+  array (
+    'id' => 1,
+    'event' => '',
+    'mobile' => '18712377078',
+    'code' => 477521,
+    'times' => 0,
+    'ip' => '',
+    'createtime' => 1534323874,
+    'type' => 0,
+  ),
+)
+[ log ] 1534325258
+[ log ] YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+[ log ] YYYYYYYYYYYYYYYYYYYYYY
+[ log ] =====================================================
+[ log ] array (
+  'account' => 'N424514_N4555470',
+  'password' => 'yg8fOB0E9q6fb0',
+  'msg' => '%E5%B0%8A%E6%95%AC%E7%9A%84%E7%94%A8%E6%88%B7%EF%BC%8C%E6%82%A8%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E4%B8%BA%EF%BC%9A738731%EF%BC%8C%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E4%B8%8D%E4%BC%9A%E7%B4%A2%E5%8F%96%EF%BC%8C%E8%AF%B7%E5%8B%BF%E6%B3%84%E9%9C%B2',
+  'phone' => '18712377078',
+  'report' => 'true',
+)
+[ log ] =====================================================
+---------------------------------------------------------------
+[ 2018-08-15T17:31:02+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002385s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `createtime` < 1534411862 ORDER BY `createtime` DESC [ RunTime:0.001036s ]
+[ sql ] [ SQL ] INSERT INTO `fa_sms` (`mobile` , `type` , `createtime` , `code`) VALUES ('18712377078' , 0 , 1534325462 , 845133) [ RunTime:0.054377s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYY
+[ log ] =====================================================
+[ log ] array (
+  'account' => 'N424514_N4555470',
+  'password' => 'yg8fOB0E9q6fb0',
+  'msg' => '%E5%B0%8A%E6%95%AC%E7%9A%84%E7%94%A8%E6%88%B7%EF%BC%8C%E6%82%A8%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E4%B8%BA%EF%BC%9A845133%EF%BC%8C%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E4%B8%8D%E4%BC%9A%E7%B4%A2%E5%8F%96%EF%BC%8C%E8%AF%B7%E5%8B%BF%E6%B3%84%E9%9C%B2',
+  'phone' => '18712377078',
+  'report' => 'true',
+)
+[ log ] =====================================================
+---------------------------------------------------------------
+[ 2018-08-15T17:31:21+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/getCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003682s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '15755175406'  AND `createtime` < 1534411881 ORDER BY `createtime` DESC [ RunTime:0.001131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_sms` (`mobile` , `type` , `createtime` , `code`) VALUES ('15755175406' , 0 , 1534325481 , 681172) [ RunTime:0.123367s ]
+[ log ] YYYYYYYYYYYYYYYYYYYYYY
+[ log ] =====================================================
+[ log ] array (
+  'account' => 'N424514_N4555470',
+  'password' => 'yg8fOB0E9q6fb0',
+  'msg' => '%E5%B0%8A%E6%95%AC%E7%9A%84%E7%94%A8%E6%88%B7%EF%BC%8C%E6%82%A8%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E4%B8%BA%EF%BC%9A681172%EF%BC%8C%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E4%B8%8D%E4%BC%9A%E7%B4%A2%E5%8F%96%EF%BC%8C%E8%AF%B7%E5%8B%BF%E6%B3%84%E9%9C%B2',
+  'phone' => '15755175406',
+  'report' => 'true',
+)
+[ log ] =====================================================

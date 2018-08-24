@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2018-08-17T15:46:43+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/tag/createTag
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010097s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.036588s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 3  AND `token` = '03a66cc2-c92f-4a56-b7f4-22a6dd01ec5d' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.000855s ]

@@ -1,0 +1,414 @@
+---------------------------------------------------------------
+[ 2018-08-14T10:54:34+08:00 ] 127.0.0.1 POST /admin/index/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094610s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.033595s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.009337s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1534215274,`token`='c3eae89c-e31a-4bc4-aabd-4f4bc797f41d',`updatetime`=1534215274  WHERE  `id` = 1 [ RunTime:0.045616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.019675s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"3e9bf076cf46142cdc26562496cc6cd3\",\"username\":\"admin\"}' , '/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36' , '127.0.0.1' , 1534215274) [ RunTime:0.029193s ]
+---------------------------------------------------------------
+[ 2018-08-14T10:54:34+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011625s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.014216s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007364s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001247s ]
+---------------------------------------------------------------
+[ 2018-08-14T10:54:36+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001836s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001630s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000942s ]
+---------------------------------------------------------------
+[ 2018-08-14T10:54:40+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002165s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001594s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001133s ]
+---------------------------------------------------------------
+[ 2018-08-14T10:54:42+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002088s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001574s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000964s ]
+---------------------------------------------------------------
+[ 2018-08-14T10:54:42+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012600s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005494s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.005121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006049s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.006010s ]
+---------------------------------------------------------------
+[ 2018-08-14T10:54:42+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002735s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001991s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000929s ]
+---------------------------------------------------------------
+[ 2018-08-14T10:55:13+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004091s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003109s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003034s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002108s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:54:03+08:00 ] 127.0.0.1 GET /fastadmin/public/api/v1/user/login
+[ error ] [8]Undefined property: app\api\controller\v1\User::$auth
+---------------------------------------------------------------
+[ 2018-08-14T15:54:11+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [8]Undefined property: app\api\controller\v1\User::$auth
+---------------------------------------------------------------
+[ 2018-08-14T15:54:51+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [8]Undefined property: app\api\controller\v1\User::$auth
+---------------------------------------------------------------
+[ 2018-08-14T15:54:57+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:55:17+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:55:41+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:55:48+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:56:06+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:56:07+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:56:07+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:56:07+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:56:07+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:56:19+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:57:06+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:57:18+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:57:32+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:57:33+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:57:33+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:57:33+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T15:58:33+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Validate' not found
+---------------------------------------------------------------
+[ 2018-08-14T16:07:38+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/create_token
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Random' not found
+---------------------------------------------------------------
+[ 2018-08-14T16:07:40+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/create_token
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Random' not found
+---------------------------------------------------------------
+[ 2018-08-14T16:07:40+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/create_token
+[ error ] [0]致命错误: Class 'app\api\controller\v1\Random' not found
+---------------------------------------------------------------
+[ 2018-08-14T16:46:51+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.080655s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.048893s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user` (`username` , `password`) VALUES ('123236' , '1212121') [ RunTime:0.051667s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:47:59+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003305s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user` (`username` , `password`) VALUES ('123236' , '1212121') [ RunTime:0.035977s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:49:00+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012208s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.002615s ]
+[ sql ] [ SQL ] INSERT INTO `fa_account` (`username` , `password`) VALUES ('123236' , '1212121') [ RunTime:0.005320s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:49:59+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011486s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001451s ]
+[ sql ] [ SQL ] INSERT INTO `fa_account` (`username` , `password`) VALUES ('123236' , '1212121') [ RunTime:0.018046s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:51:22+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011870s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001610s ]
+[ sql ] [ SQL ] INSERT INTO `fa_account` (`username` , `password`) VALUES ('123236' , '1212121') [ RunTime:0.019267s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:52:45+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004405s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.003169s ]
+[ sql ] [ SQL ] INSERT INTO `fa_account` (`username` , `password`) VALUES ('123236' , '1212121') [ RunTime:0.020182s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:53:28+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003655s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001756s ]
+[ sql ] [ SQL ] INSERT INTO `fa_account` (`username` , `password` , `regist_time` , `update_time`) VALUES ('123236' , '654bb6856887379e7309bc9b7da3a8eb' , 1534236808 , 1534236808) [ RunTime:0.005624s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:53:55+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004205s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001946s ]
+[ sql ] [ SQL ] INSERT INTO `fa_account` (`username` , `password` , `regist_time` , `update_time`) VALUES ('123236' , '654bb6856887379e7309bc9b7da3a8eb' , 1534236835824 , 1534236835824) [ RunTime:0.069362s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:43+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002357s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001755s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000894s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:46+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002511s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:47+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012198s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:48+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002170s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001518s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000899s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:48+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002522s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000947s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:48+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011024s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000790s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:48+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012052s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000991s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:49+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002473s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001724s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000908s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:49+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011180s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000732s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:49+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002243s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001733s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000791s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:49+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002055s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000959s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:59:49+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002184s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000797s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:02:50+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003106s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001605s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.001450s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:02:52+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011189s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:02:52+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012748s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.001220s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:02:52+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012650s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000730s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:02:52+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012572s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000969s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:02:52+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011771s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000891s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:00+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002825s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:00+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013035s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000700s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:00+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011597s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:00+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002680s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000857s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:01+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002411s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:01+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012224s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000921s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:01+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002610s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:01+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011544s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000757s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:02+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011394s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:34+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011553s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000793s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:34+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011162s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000698s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:34+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011228s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.001038s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:35+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010940s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000784s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:35+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002752s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001281s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000857s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:35+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002218s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000811s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:35+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003812s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.001143s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:36+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002074s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000789s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:36+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002872s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:36+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011326s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:05:11+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002571s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000799s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:05:18+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002800s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000779s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:05:20+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013361s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:05:20+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002226s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:05:20+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002251s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000745s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:05:21+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011092s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '123236' LIMIT 1 [ RunTime:0.000815s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:32:55+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004328s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '1212122'  AND `password` = '0eb200d0b10398f239c658b913fac99f' LIMIT 1 [ RunTime:0.001360s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:33:42+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012456s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = 'wudiwudi' LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] INSERT INTO `fa_account` (`username` , `password` , `regist_time` , `update_time`) VALUES ('wudiwudi' , '0d919124b61a7bd96342d054cd27e717' , 1534239222647 , 1534239222647) [ RunTime:0.051287s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:33:48+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002576s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = '1212122'  AND `password` = '0eb200d0b10398f239c658b913fac99f' LIMIT 1 [ RunTime:0.000823s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:33:54+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011535s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = 'wudiwudi'  AND `password` = '6aa11454b9fca0741ffabeae270c7191' LIMIT 1 [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:34:31+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004006s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = 'wudiwudi'  AND `password` = '6aa11454b9fca0741ffabeae270c7191' LIMIT 1 [ RunTime:0.001694s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:34:39+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002706s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `username` = 'wudiwudi'  AND `password` = '0d919124b61a7bd96342d054cd27e717' LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.001883s ]
+[ sql ] [ SQL ] INSERT INTO `fa_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('f3f5e987-2dba-4c08-a207-c08443ea1ad1' , 7 , 1534239279 , 1534325679) [ RunTime:0.034061s ]

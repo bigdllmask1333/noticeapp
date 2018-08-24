@@ -1,0 +1,35 @@
+---------------------------------------------------------------
+[ 2018-08-21T16:40:46+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/message/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003507s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = '0edf5a0c-6290-46b0-ab0f-198068b5de85' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_message` [ RunTime:0.001426s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'update_time' in 'order clause'
+---------------------------------------------------------------
+[ 2018-08-21T16:41:03+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/message/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003531s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = '0edf5a0c-6290-46b0-ab0f-198068b5de85' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_message` [ RunTime:0.002305s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_message` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.001718s ]
+---------------------------------------------------------------
+[ 2018-08-21T16:41:31+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/message/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003651s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.002235s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = '0edf5a0c-6290-46b0-ab0f-198068b5de85' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.001779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_message` [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_message` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000713s ]
+---------------------------------------------------------------
+[ 2018-08-21T17:10:42+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/message/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002616s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = '0edf5a0c-6290-46b0-ab0f-198068b5de85' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_message` [ RunTime:0.002546s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_message` ORDER BY `id` DESC,`read` ASC LIMIT 0,20 [ RunTime:0.001382s ]
+---------------------------------------------------------------
+[ 2018-08-21T17:12:34+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/message/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002300s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = '0edf5a0c-6290-46b0-ab0f-198068b5de85' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_message` [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_message` WHERE  `initiator_id` = 4 ORDER BY `id` DESC,`read` ASC LIMIT 0,20 [ RunTime:0.022890s ]

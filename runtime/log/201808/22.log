@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+[ 2018-08-22T14:09:59+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/fastLogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036277s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.002939s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `mobile` = '18712377078' LIMIT 1 [ RunTime:0.002263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.003082s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `code` = 541640  AND `type` = 0 LIMIT 1 [ RunTime:0.002853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.002848s ]
+[ sql ] [ SQL ] INSERT INTO `fa_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('9a90ceae-7569-4f96-879d-885161dd79d7' , 4 , 1534918198 , 1535004598) [ RunTime:0.054031s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4 ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.004965s ]
+---------------------------------------------------------------
+[ 2018-08-22T16:43:58+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/fastLogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010931s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `mobile` = '18712377078' LIMIT 1 [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] INSERT INTO `fa_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('68d9913d-369f-4e1c-9cc4-b682f21b97ef' , 4 , 1534927438 , 1535013838) [ RunTime:0.049841s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4 ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.004344s ]
+---------------------------------------------------------------
+[ 2018-08-22T16:46:03+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/fastLogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004637s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001803s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `mobile` = '18712377078' LIMIT 1 [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] INSERT INTO `fa_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('5ae6e415-f146-46e9-9f8d-38d7ef5157aa' , 4 , 1534927563 , 1535013963) [ RunTime:0.018293s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4 ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.001419s ]
+---------------------------------------------------------------
+[ 2018-08-22T16:47:09+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/meminfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018737s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = '5ae6e415-f146-46e9-9f8d-38d7ef5157aa' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.016279s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001101s ]
+---------------------------------------------------------------
+[ 2018-08-22T16:57:52+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013458s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = '80cefeb5-1340-4b36-9ea7-7f84d6c91e7b' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.001273s ]
+---------------------------------------------------------------
+[ 2018-08-22T16:58:05+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003580s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.001178s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = '5ae6e415-f146-46e9-9f8d-38d7ef5157aa' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001118s ]

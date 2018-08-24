@@ -1,0 +1,18 @@
+---------------------------------------------------------------
+[ 2018-08-20T17:13:34+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/changePsw
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003602s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = 'b8ca35d4-9055-45a4-807d-e483043f1f2c' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000868s ]
+[ error ] [0]致命错误: Undefined class constant 'SMS'
+---------------------------------------------------------------
+[ 2018-08-20T17:16:38+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/changePsw
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004261s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.001653s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 4  AND `token` = 'b8ca35d4-9055-45a4-807d-e483043f1f2c' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18712377078'  AND `code` = 735570  AND `type` = 3 LIMIT 1 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] UPDATE `fa_account`  SET `password`='14e1b600b1fd579f47433b88e8d85291'  WHERE  `id` = 4 [ RunTime:0.047925s ]
