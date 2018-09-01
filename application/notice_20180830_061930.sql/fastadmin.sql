@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2018-08-17 15:58:52
+Date: 2018-08-30 14:42:28
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,18 +31,16 @@ CREATE TABLE `fa_account` (
   `head_img` varchar(255) DEFAULT NULL COMMENT '头像',
   `personality_signature` varchar(255) DEFAULT NULL COMMENT '个性签名',
   `age` int(11) DEFAULT NULL COMMENT '年龄（每个生日更新一次）',
-  `remind_times` int(11) DEFAULT NULL COMMENT '提醒次数',
+  `remind_times` int(11) DEFAULT '0' COMMENT '提醒次数',
   `regist_time` bigint(13) DEFAULT NULL COMMENT '注册时间',
   `update_time` bigint(13) DEFAULT NULL COMMENT '更新时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='API_用户信息表字段 account';
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='API_用户信息表字段 account';
 
 -- ----------------------------
 -- Records of fa_account
 -- ----------------------------
-INSERT INTO `fa_account` VALUES ('1', 'wudiwudi123', '03ac9df10fe187e42defa12e1a1a930a', null, null, null, '1', null, null, null, null, null, '1534241276873', '1534241276873');
-INSERT INTO `fa_account` VALUES ('2', '18712377079', null, null, null, null, '1', null, null, null, null, null, '1534386221556', '1534386221556');
-INSERT INTO `fa_account` VALUES ('3', '18712377078', '4a6629303c679cfa6a5a81433743e52c', null, null, null, '1', null, null, null, null, null, '1534387552729', '1534387552729');
+INSERT INTO `fa_account` VALUES ('4', '18712377078', '123456', null, null, 'wuweixiang1', '2', '1515151515154', '123', null, null, null, '1534578416428', '1534578416428');
 
 -- ----------------------------
 -- Table structure for fa_account_ext
@@ -4385,6 +4383,25 @@ INSERT INTO `fa_crontab` VALUES ('1', 'url', '请求FastAdmin', 'http://www.fast
 INSERT INTO `fa_crontab` VALUES ('2', 'sql', '查询一条SQL', 'SELECT 1;', '* * * * *', '0', '0', '13548', '1497071095', '1501253101', '1483200000', '1546272000', '1501253101', '2', 'normal');
 
 -- ----------------------------
+-- Table structure for fa_device
+-- ----------------------------
+DROP TABLE IF EXISTS `fa_device`;
+CREATE TABLE `fa_device` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `deviceId` varchar(255) DEFAULT NULL COMMENT '设备号',
+  `userid` int(11) DEFAULT NULL COMMENT '用户id',
+  `create_time` bigint(13) DEFAULT NULL COMMENT '插入时间',
+  `extra` varchar(255) DEFAULT NULL COMMENT '备用接口',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='API_设备号device';
+
+-- ----------------------------
+-- Records of fa_device
+-- ----------------------------
+INSERT INTO `fa_device` VALUES ('1', 'asd1asd13asd1as313asd', '4', '1535002353', null);
+INSERT INTO `fa_device` VALUES ('2', 'asd1asd13asd1as313asd1', '4', '1535002367', null);
+
+-- ----------------------------
 -- Table structure for fa_ems
 -- ----------------------------
 DROP TABLE IF EXISTS `fa_ems`;
@@ -4402,6 +4419,24 @@ CREATE TABLE `fa_ems` (
 -- ----------------------------
 -- Records of fa_ems
 -- ----------------------------
+
+-- ----------------------------
+-- Table structure for fa_feedback
+-- ----------------------------
+DROP TABLE IF EXISTS `fa_feedback`;
+CREATE TABLE `fa_feedback` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `content` text NOT NULL COMMENT '内容',
+  `coninfo` varchar(255) NOT NULL COMMENT '联系方式',
+  `create_time` int(11) NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='API_意见反馈信息';
+
+-- ----------------------------
+-- Records of fa_feedback
+-- ----------------------------
+INSERT INTO `fa_feedback` VALUES ('1', '12', '12', '1535533789');
+INSERT INTO `fa_feedback` VALUES ('2', '12', '12', '1535535272');
 
 -- ----------------------------
 -- Table structure for fa_fsearch
@@ -4454,12 +4489,27 @@ CREATE TABLE `fa_log` (
 DROP TABLE IF EXISTS `fa_message`;
 CREATE TABLE `fa_message` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `title` varchar(255) DEFAULT NULL COMMENT '标题',
+  `message` varchar(255) DEFAULT NULL COMMENT '内容',
+  `time` bigint(13) DEFAULT NULL COMMENT '事件时间',
+  `event_id` int(11) DEFAULT NULL COMMENT '事件id',
+  `initiator_id` int(11) DEFAULT NULL COMMENT '发起人id',
+  `recipient_id` int(11) DEFAULT NULL COMMENT '接收人id',
+  `type` int(11) DEFAULT NULL COMMENT '消息类型',
+  `is_accept` int(11) DEFAULT '1' COMMENT '接受状态 1 未接受 2接受',
+  `add_time` int(13) DEFAULT NULL COMMENT '添加时间',
+  `linktype` int(11) DEFAULT NULL COMMENT '消息类型',
+  `params` varchar(255) DEFAULT NULL COMMENT '可跳转的url',
+  `read` int(11) DEFAULT '1' COMMENT '1 未读  2已读',
+  `update_time` int(13) DEFAULT NULL COMMENT '更新时间',
+  `is_del` int(11) DEFAULT '1' COMMENT '1 显示  2不显示（软删除）',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='API_消息表字段message';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='API_消息表字段message';
 
 -- ----------------------------
 -- Records of fa_message
 -- ----------------------------
+INSERT INTO `fa_message` VALUES ('1', '你好1', '干嘛1', '1534842591', '12', '4', '12', '1', '1', '1534842591', '1', '1534842591', '1', '1534842591', '1');
 
 -- ----------------------------
 -- Table structure for fa_result
@@ -4501,7 +4551,7 @@ CREATE TABLE `fa_sms` (
   `createtime` int(10) unsigned DEFAULT '0' COMMENT '创建时间',
   `type` int(10) unsigned DEFAULT NULL COMMENT '0、快捷登录；1、注册；2、找回密码；999、其他',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='短信验证码表';
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='短信验证码表';
 
 -- ----------------------------
 -- Records of fa_sms
@@ -4512,6 +4562,11 @@ INSERT INTO `fa_sms` VALUES ('3', '', '18712377078', '678170', '0', '', '1534390
 INSERT INTO `fa_sms` VALUES ('4', '', '18712377078', '797339', '0', '', '1534470971', '2');
 INSERT INTO `fa_sms` VALUES ('5', '', '18712377078', '270020', '0', '', '1534472309', '0');
 INSERT INTO `fa_sms` VALUES ('6', '', '18712377078', '441280', '0', '', '1534473656', '999');
+INSERT INTO `fa_sms` VALUES ('7', '', '18712377078', '185078', '0', '', '1534578399', '0');
+INSERT INTO `fa_sms` VALUES ('8', '', '18712377078', '868945', '0', '', '1534735792', '0');
+INSERT INTO `fa_sms` VALUES ('9', '', '18712377078', '735570', '0', '', '1534756262', '3');
+INSERT INTO `fa_sms` VALUES ('10', '', '18712377078', '631522', '0', '', '1534840177', '0');
+INSERT INTO `fa_sms` VALUES ('11', '', '18712377078', '930068', '0', '', '1534989016', '2');
 
 -- ----------------------------
 -- Table structure for fa_tag
@@ -4519,12 +4574,18 @@ INSERT INTO `fa_sms` VALUES ('6', '', '18712377078', '441280', '0', '', '1534473
 DROP TABLE IF EXISTS `fa_tag`;
 CREATE TABLE `fa_tag` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `tag_name` varchar(255) DEFAULT NULL COMMENT '标签名称',
+  `user_id` int(11) DEFAULT NULL COMMENT '用户id',
+  `create_time` bigint(13) DEFAULT NULL COMMENT '创建时间',
+  `update_time` bigint(13) DEFAULT NULL COMMENT '更新时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='API_联系人字段表标签表字段 tag';
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='API_联系人字段表标签表字段 tag';
 
 -- ----------------------------
 -- Records of fa_tag
 -- ----------------------------
+INSERT INTO `fa_tag` VALUES ('1', 'familay', '4', '1534571745378', '1534571745378');
+INSERT INTO `fa_tag` VALUES ('2', 'classmate', '4', '1534571745432', '1534571745432');
 
 -- ----------------------------
 -- Table structure for fa_tag_ext
@@ -4681,10 +4742,24 @@ CREATE TABLE `fa_token` (
 -- Records of fa_token
 -- ----------------------------
 INSERT INTO `fa_token` VALUES ('03a66cc2-c92f-4a56-b7f4-22a6dd01ec5d', '3', '1534490410', '1534490410');
+INSERT INTO `fa_token` VALUES ('0af4cc6d-389a-4b1c-a016-4a862213ac9f', '4', '1535529633', '1535616033');
+INSERT INTO `fa_token` VALUES ('0edf5a0c-6290-46b0-ab0f-198068b5de85', '4', '1534840193', '1534926593');
+INSERT INTO `fa_token` VALUES ('24abc0ef-e083-4242-b9e0-09d86644d839', '4', '1534580455', '1534666855');
+INSERT INTO `fa_token` VALUES ('2a9a5d4b-fad6-4a76-911a-158845b1980b', '4', '1534580411', '1534666811');
 INSERT INTO `fa_token` VALUES ('32e76597-5458-44e9-b0cb-2bc8dd088957', '3', '1534490408', '1534576808');
+INSERT INTO `fa_token` VALUES ('42d41e37-8120-4385-9ba0-a2b1879dc322', '4', '1534580410', '1534666810');
+INSERT INTO `fa_token` VALUES ('4af341ac-a8d3-4240-94af-895995de9302', '4', '1535508377', '1535594777');
+INSERT INTO `fa_token` VALUES ('5ae6e415-f146-46e9-9f8d-38d7ef5157aa', '4', '1534927563', '1535013963');
+INSERT INTO `fa_token` VALUES ('68d9913d-369f-4e1c-9cc4-b682f21b97ef', '4', '1534927438', '1535013838');
 INSERT INTO `fa_token` VALUES ('7aeb8d6a-20a1-4378-9363-68cf856a2c41', '3', '1534490405', '1534576805');
+INSERT INTO `fa_token` VALUES ('80cefeb5-1340-4b36-9ea7-7f84d6c91e7b', '4', '1534583566', '1534669966');
+INSERT INTO `fa_token` VALUES ('929828c5-48f0-463b-84a1-c40da9b9d2ef', '4', '1534989112', '1535075512');
+INSERT INTO `fa_token` VALUES ('9a90ceae-7569-4f96-879d-885161dd79d7', '4', '1534918198', '1535004598');
+INSERT INTO `fa_token` VALUES ('b8ca35d4-9055-45a4-807d-e483043f1f2c', '4', '1534735809', '1534822209');
 INSERT INTO `fa_token` VALUES ('d9063b3f-742d-4dc4-b61f-3e19b9e471c4', '3', '1534490410', '1534576810');
+INSERT INTO `fa_token` VALUES ('e30ec607-0184-484d-9800-69b6c7d4a50d', '4', '1534578416', '1534664816');
 INSERT INTO `fa_token` VALUES ('f1ed42c7-a4c8-4a69-b9df-6721ad5286e8', '3', '1534490409', '1534576809');
+INSERT INTO `fa_token` VALUES ('fe962c56-7c33-49a8-bad9-28dee8262dc3', '3', '1534554758', '1534641158');
 
 -- ----------------------------
 -- Table structure for fa_user

@@ -1,8 +1,6 @@
 <?php
 use think\Route;                        //引入Route
-Route::domain('www.opop33.com:8080','api');
-//Route::rule('test1','index/index/demo');
-//Route::rule('test2','api/v1/index');
+Route::domain('notice.16820.com','api');
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
@@ -21,17 +19,9 @@ return [
     '__pattern__' => [
     ],
 //        域名绑定到模块
-//    '__domain__'  => [
-//        'admin' => 'admin',
-//        'www.opop33.com'   => 'api',
-//    ],
-//    'api/nihao' =>'api/v1/index',
+//        '__domain__'  => [
+//            'admin' => 'admin',
+//            'api'   => 'api',
+//        ],
+
 ];
-//Route::rule('api/nihao','api/v1/index');
-
-
-//Route::rule(':version/user/:id','api/:version.User/read');
-// 路由到默认模块或者绑定模块
-//Route::get('version/index/:id','api/:version.Index/index');
-// 路由到index模块
-//Route::get('blog/:id','index/blog/read');

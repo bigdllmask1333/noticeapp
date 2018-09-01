@@ -1,0 +1,10 @@
+---------------------------------------------------------------
+[ 2018-09-01T10:40:12+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044153s ] mysql:host=127.0.0.1;dbname=notice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_account` [ RunTime:0.004989s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_account` WHERE  `mobile` = '18712377078'  AND `password` = '14e1b600b1fd579f47433b88e8d85291' LIMIT 1 [ RunTime:0.003038s ]
+---------------------------------------------------------------
+[ 2018-09-01T10:41:23+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/allBackgroundImg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004762s ] mysql:host=127.0.0.1;dbname=notice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 24  AND `token` = 'c7a13523-817c-46ee-b75b-ef6696baa06c' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.000589s ]

@@ -18,6 +18,7 @@ class Account extends Controller
     const SMS='sms';// account 用户表   self::SMS
     const BASE_URL='http://notice.16820.com';// BASE_URL 基础url   self::BASE_URL
     const DEVICE='device';// device 设备信息表   self::DEVICE
+    const BACKIMG='backimg';// backimg  背景图片   self::BACKIMG
 
 
     public function __construct(Request $request = null)
@@ -54,9 +55,6 @@ class Account extends Controller
      */
     public function device($info){
 
-        trace('**************************************************************');
-        trace($info);
-        trace('**************************************************************');
 
         $where['deviceId']=$info['deviceid'];
         $where['userid']=$info['userid'];
@@ -92,6 +90,8 @@ class Account extends Controller
             $datas=Db::name(self::ACCOUNT)->where('id',$info['userid'])->find();
 
             if($datas){
+//                $backid=$datas['backimg'];
+//                $backimg=Db::name(self::BACKIMG)->where('id',$backid)->find();
                 $retdata['id']=$datas['id'];
                 $retdata['nickname']=checkNull($datas['nickname']);
                 $retdata['mobile']=checkNull($datas['mobile']);
@@ -100,13 +100,14 @@ class Account extends Controller
                 $retdata['gender']=$datas['sex'];
                 $retdata['birthday']=checkNull($datas['birthday']);
                 $retdata['icon']=checkNull($datas['head_img']);
-                $retdata['gender']=$info['token'];
-                /*$retdata['password']=checkNull($datas['password']);
-                $retdata['personality_signature']=checkNull($datas['personality_signature']);
-                $retdata['age']=checkNull($datas['age']);
-                $retdata['remind_times']=checkNull($datas['remind_times']);
-                $retdata['update_time']=checkNull($datas['update_time']);*/
+                $retdata['token']=$info['token'];
+                $retdata['backurl']=checkNull($datas['backimg']);
 
+//                if($backimg){
+//                    $retdata['backurl']=$backimg['url'];
+//                }else{
+//                    $retdata['backurl']="";
+//                }
                 $ret['code']=1;
                 $ret['message']='query was successful';
                 $ret['data']=$retdata;
@@ -149,13 +150,10 @@ class Account extends Controller
             下面是post传参，更新数据（性别，生日，昵称（真实姓名怎么弄））
             */
             $data=Request::instance()->post();  /*获取所有数据*/
-
             $intdata=array();
-
-            if(isset($data['headImg'])){
-                $intdata['head_img']=$data['headImg'];    /*头像*/
+            if(isset($data['hadeImg'])){
+                $intdata['head_img']=$data['hadeImg'];    /*头像*/
             }
-
             if(isset($data['sex'])){
                 $intdata['sex']=$data['sex'];    /*性别*/
             }
@@ -169,16 +167,37 @@ class Account extends Controller
 
             $recheck=Db::name(self::ACCOUNT)->where('id', $info['userid'])->update($intdata);
 
-            if(!empty($intdata)){
-                $retdata=$intdata;
+
+            $datas=Db::name(self::ACCOUNT)->where('id',$info['userid'])->find();
+//            $backid=$datas['backimg'];
+//            $backimg=Db::name(self::BACKIMG)->where('id',$backid)->find();
+            $retdatas['id']=$datas['id'];
+            $retdatas['nickname']=checkNull($datas['nickname']);
+            $retdatas['mobile']=checkNull($datas['mobile']);
+            $retdatas['registerTime']=checkNull($datas['regist_time']);
+            $retdatas['email']=checkNull($datas['email']);
+            $retdatas['gender']=$datas['sex'];
+            $retdatas['birthday']=checkNull($datas['birthday']);
+            $retdatas['icon']=checkNull($datas['head_img']);
+            $retdatas['token']=$info['token'];
+            $retdatas['backurl']=checkNull($datas['url']);
+//            if($backimg){
+//                $retdatas['backurl']=$backimg['url'];
+//            }else{
+//                $retdatas['backurl']="";
+//            }
+
+
+            if(!empty($retdatas)){
+                $rets=$retdatas;
             }else{
-                $retdata='{}';
+                $rets='{}';
             }
 
             if($recheck){
                 $ret['code']=1;
                 $ret['message']='edit success';
-                $ret['data']=$retdata;
+                $ret['data']=$rets;
             }else{
                 $ret['code']=0;
                 $ret['message']='edit error';
@@ -208,9 +227,9 @@ class Account extends Controller
                 return json($ret);
             }
 
-            $code = $this->request->post('code');
-            $password = $this->request->post('new_password');
-            $password2 = $this->request->post('new_password2');
+            $code = input('post.code');
+            $password = input('post.new_password');
+            $password2 = input('post.new_password2');
             if($password!=$password2){
                 $ret['code']=0;
                 $ret['message']='Two password inconsistency';
@@ -234,7 +253,7 @@ class Account extends Controller
                     /*在这更新密码*/
                     $updates=Db::name(self::ACCOUNT)
                         ->where('id', $info['userid'])
-                        ->update(['password' => md5(md5($password))]);
+                        ->update(['password' => $password]);
                     if($updates){
                         $ret['code']=1;
                         $ret['message']='Update success';
@@ -315,9 +334,126 @@ class Account extends Controller
      * @param  int  $id
      * @return \think\Response
      */
-    public function allBackgroundImg($id)
+    public function allBackgroundImg()
     {
-        $data=array('http://notice.16820.com/backimg/1.jpg');
+
+
+        if (Request::instance()->isPost()) {
+            $info = Request::instance()->header();
+
+            $cc=$this->checkToken($info['userid'],$info['token']);
+            if(!$cc){
+                $ret['code']=0;
+                $ret['message']='token Invalid,Please login again';
+                $ret['data']='{}';
+                return json($ret);
+            }
+
+            /*查询数据库的背景图片*/
+            $where['id']=$info['userid'];
+            $infos=Db::name(self::ACCOUNT)->where($where)->find();
+
+
+            $retimg=array();
+            $data=Db::name(self::BACKIMG)->where([])->select();
+            foreach ($data as $val){
+                if($val['url']==$infos['backimg']){
+                    $val['isSelected']=1;
+                }else{
+                    $val['isSelected']=0;
+                }
+                array_push($retimg,$val);
+            }
+
+
+            if(empty($retimg)){
+                $retimg='{}';
+            }
+
+            $ret['code']=1;
+            $ret['message']='success';
+            $ret['data']=$retimg;
+
+        }else{
+            $ret['code']=0;
+            $ret['message']='Not post passing value';
+            $ret['data']='{}';
+        }
+        return json($ret);
+
+    }
+
+    /*设置背景图片*/
+    public function setBackimg(){
+        if (Request::instance()->isPost()) {
+            $info = Request::instance()->header();
+
+            $cc=$this->checkToken($info['userid'],$info['token']);
+            if(!$cc){
+                $ret['code']=0;
+                $ret['message']='token Invalid,Please login again';
+                $ret['data']='{}';
+                return json($ret);
+            }
+
+
+            $backimgurl=input('post.backurl');
+
+            /*在这个地方修改用户信息的背景图片*/
+            $check=Db::name(self::ACCOUNT)->where('id', $info['userid'])->update(['backimg' => $backimgurl]);
+            if($check){
+                $ret['code']=1;
+                $ret['message']='edit success';
+                $ret['data']='{}';
+            }else{
+                $ret['code']=0;
+                $ret['message']='no you do error';
+                $ret['data']='{}';
+            }
+        }else{
+            $ret['code']=0;
+            $ret['message']='Not post passing value';
+            $ret['data']='{}';
+        }
+        return json($ret);
+    }
+
+    /*静态页面H5跳转*/
+    public function h5page(){
+        $data=array();
+        $data['fwtk']['name']='服务条款';
+        $data['fwtk']['url']='http://www.baidu.com';
+
+        $data['yhxy']['name']='用户协议';
+        $data['yhxy']['url']='http://www.baidu.com';
+
+        $data['rmzn']['name']='入门指南';
+        $data['rmzn']['url']='http://www.baidu.com';
+
+        $data['jjjq']['name']='进阶技巧';
+        $data['jjjq']['url']='http://www.baidu.com';
+
+        $data['xsscxxp']['name']='新手手册学习篇';
+        $data['xsscxxp']['url']='http://www.baidu.com';
+
+
+        $data['sjgljjp']['name']='时间管理进阶篇';
+        $data['sjgljjp']['url']='http://www.baidu.com';
+
+        $data['wfsdtx']['name']='无法收到提醒？';
+        $data['wfsdtx']['url']='http://www.baidu.com';
+
+        $data['gnjs']['name']='功能介绍？';
+        $data['gnjs']['url']='http://www.baidu.com';
+
+        $data['wwmpf']['name']='为我们评分';
+        $data['wwmpf']['url']='http://www.baidu.com';
+
+        $ret['code']=1;
+        $ret['message']='success';
+        $ret['data']=$data;
+
+        return json($ret);
 
     }
 }

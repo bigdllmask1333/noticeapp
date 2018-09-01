@@ -55,9 +55,9 @@ class Message extends Controller
                 return json($ret);
             }
 
-            $page = $this->request->post('page');
+            $page = input('post.page');
             $newpage=$page+1;
-            $pageSize = $this->request->post('pageSize');
+            $pageSize = input('post.pageSize');
 
             $where['initiator_id']=$info['userid'];
             $where['is_del']=1;
@@ -117,9 +117,9 @@ class Message extends Controller
                 return json($ret);
             }
 
-            $message_id = $this->request->post('message_id');
-            $read = $this->request->post('read');
-            $delete = $this->request->post('delete');
+            $message_id = input('post.message_id');
+            $read = input('post.read');
+            $delete = input('post.delete');
 
             if(isset($message_id)){
                 if (isset($read)){
@@ -128,6 +128,7 @@ class Message extends Controller
                 }else{
                     if(isset($delete)){
                         /*删除当前用户所有消息*/
+
                     }
                 }
             }else{

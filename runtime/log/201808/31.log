@@ -1,0 +1,16 @@
+---------------------------------------------------------------
+[ 2018-08-31T11:36:35+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/index
+[ error ] [8]未定义数组索引: deviceid
+---------------------------------------------------------------
+[ 2018-08-31T11:36:41+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001997s ] mysql:host=127.0.0.1;dbname=notice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.015662s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_device` WHERE  `deviceId` = '123'  AND `userid` = 24 LIMIT 1 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] INSERT INTO `fa_device` (`deviceId` , `userid` , `create_time`) VALUES ('123' , 24 , 1535686601) [ RunTime:0.111879s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.004102s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 24  AND `token` = '19ec99fc-7909-445d-b848-d31215dbbeb5' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.001254s ]
+---------------------------------------------------------------
+[ 2018-08-31T17:28:30+08:00 ] 127.0.0.1 POST /fastadmin/public/api/v1/account/changePsw
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040876s ] mysql:host=127.0.0.1;dbname=notice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_token` [ RunTime:0.023357s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_token` WHERE  `user_id` = 24  AND `token` = '51818151-8128-458d-85dd-0f3eca221fb4' ORDER BY `createtime` DESC LIMIT 1 [ RunTime:0.002365s ]

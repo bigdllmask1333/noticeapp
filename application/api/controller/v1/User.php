@@ -21,6 +21,7 @@ class User extends Controller
     const TOKEN='token';//token 表  self::TOKEN
     const ACCOUNT='account';// account 用户表   self::ACCOUNT
     const SMS='sms';// account 用户表   self::SMS
+    const DEVICE='device';// device 设备信息表   self::DEVICE
 
     /*获取token*/
     public function create_token($uid){
@@ -37,6 +38,24 @@ class User extends Controller
             return false;
         }
     }
+
+
+    /*
+    * 设备号-用户名
+    */
+    public function device($info){
+
+
+        $where['deviceId']=$info['deviceid'];
+        $where['userid']=$info['userid'];
+        $check=Db::name(self::DEVICE)->where($where)->find();
+        if(!$check){
+            $where['create_time']=time();
+            Db::name(self::DEVICE)->insert($where);
+        }
+    }
+
+
     /**
      * 登录
      * @return \think\Response
@@ -44,8 +63,10 @@ class User extends Controller
     public function login()
     {
         if (Request::instance()->isPost()) {
-            $mobile = $this->request->post('mobile');
-            $password = $this->request->post('password');
+            $info = Request::instance()->header();
+
+            $mobile = input('post.mobile');
+            $password = input('post.password');
             $validate = new Validate([
                 'mobile'  => 'require|length:6,30',
 //                'password'  => 'require|length:6,30',
@@ -64,6 +85,15 @@ class User extends Controller
 //                $map['password'] =md5(md5($password));
                 $check=Db::name(self::ACCOUNT)->where($map)->find();
                 if($check){
+
+                    /*存deviceSTART*/
+                    $dacc=array();
+                    $dacc['userid']=$check['id'];
+                    $dacc['deviceid']=$info['deviceid'];
+                    $this->device($dacc);
+                    /*存deviceEND*/
+
+
                     $retdata['id']=$check['id'];
                     $retdata['nickname']=checkNull($check['nickname']);
                     $retdata['mobile']=checkNull($check['mobile']);
@@ -107,9 +137,9 @@ class User extends Controller
     {
         if (Request::instance()->isPost()) {
 
-            $mobile = $this->request->post('mobile');
-            $code = $this->request->post('code');
-//            $password = $this->request->post('password');   快速登录
+            $mobile = input('post.mobile');
+            $code = input('post.code');
+//            $password = input('post.password');   快速登录
             $checkmeminfo=Db::name(self::ACCOUNT)->where('mobile',$mobile)->find();
 
             if($checkmeminfo){
@@ -241,9 +271,9 @@ class User extends Controller
      */
     public function register(){
         if (Request::instance()->isPost()) {
-            $mobile = $this->request->post('mobile');
-            $code = $this->request->post('code');
-            $password = $this->request->post('password');
+            $mobile = input('post.mobile');
+            $code = input('post.code');
+            $password = input('post.password');
             $checkmeminfo=Db::name(self::ACCOUNT)->where('mobile',$mobile)->find();
 
             if($checkmeminfo){
@@ -338,9 +368,9 @@ class User extends Controller
      */
     public function forgetPassword(){
         if (Request::instance()->isPost()) {
-            $mobile = $this->request->post('mobile');
-            $code = $this->request->post('code');
-            $password = $this->request->post('password');
+            $mobile = input('post.mobile');
+            $code = input('post.code');
+            $password = input('post.password');
             $checkmeminfo = Db::name(self::ACCOUNT)->where('mobile', $mobile)->find();
             if($checkmeminfo){
                 /*先验证验证码*/
@@ -391,8 +421,8 @@ class User extends Controller
      */
     public function getCode(){
         if (Request::instance()->isPost()) {
-            $mobile = $this->request->post('mobile');
-            $type = $this->request->post('type');   /*0、快捷登录/注册；1、注册；2、找回密码；999、其他*/
+            $mobile = input('post.mobile');
+            $type = input('post.type');   /*0、快捷登录/注册；1、注册；2、找回密码；999、其他*/
 
             //60秒内只能读一次
             $where['mobile']=$mobile;

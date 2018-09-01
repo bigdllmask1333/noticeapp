@@ -56,9 +56,32 @@ class Tag extends Base
                 return json($ret);
             }
 
-            $tags = $this->request->post('tags');
-            $newtags=json_decode($tags,'true');
-            if(empty($newtags)){
+            $tag = $this->request->post('tag');
+            $map['tag_name'] = $tag;
+            $map['user_id'] =$info['userid'];
+            $check=Db::name(self::TAG)->where($map)->find();
+
+            if(!$check){
+                $newinfo['tag_name']=$tag;
+                $newinfo['user_id']= $info['userid'];
+                $newinfo['create_time']= getMillisecond();
+                $newinfo['update_time']= getMillisecond();
+                $cc=Db::name(self::TAG)->insert($newinfo);
+                if($cc){
+                    $ret['code']=1;
+                    $ret['message']='insert success';
+                    $ret['data']='{}';
+                }else{
+                    $ret['code']=0;
+                    $ret['message']='insert error';
+                    $ret['data']='{}';
+                }
+            }
+
+
+//            $tags = $this->request->post('tags');
+//            $newtags=json_decode($tags,'true');
+            /*if(empty($newtags)){
                 $ret['code']=0;
                 $ret['message']='tag value can not be empty';
                 $ret['data']='{}';
@@ -88,7 +111,7 @@ class Tag extends Base
                     $ret['message']='Label added successfully';
                     $ret['data']=$rettag;
                 }
-            }
+            }*/
         }else{
             $ret['code']=0;
             $ret['message']='Not post passing value';
